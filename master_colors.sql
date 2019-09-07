@@ -32,7 +32,7 @@ CREATE TABLE `colors` (
 -- Dumping data for table `colors`
 --
 
-INSERT INTO `gs_colors` (`id`, `name`, `slug`, `hex_code`, `isactive`, `isdeleted`, `createdon`, `updatedon`) VALUES
+INSERT INTO `colors` (`id`, `name`, `slug`, `hex_code`, `isactive`, `isdeleted`, `createdon`, `updatedon`) VALUES
 (1, 'AliceBlue ', NULL, '#F0F8FF', 1, 0, '2019-06-16 11:19:19', '2019-06-16 11:19:19'),
 (2, 'AntiqueWhite ', NULL, '#FAEBD7', 1, 0, '2019-06-16 11:19:19', '2019-06-16 11:19:19'),
 (3, 'Aqua ', NULL, '#00FFFF', 1, 0, '2019-06-16 11:20:02', '2019-06-16 11:20:02'),
